@@ -17,17 +17,21 @@ console.log(country)
 const age = 24; // 'cannot be re-declared or updated. fixed value'
 
 
-// DATA TYPES IN JAVASCRIPT
+// practise questions
+const product = {
+  Pro_name: "Ball pen",
+  rating: 4,
+  offer: 5,
+  price: 299,
+};
 
-number = 100; // number data type
-string = "Hello World"; // string data type
-boolean = true; // boolean data type
-null_value = null; // null data type
-undefined_value = undefined; // undefined data type
-const student = {
-  fullname: "Vinay Devadiga",
-  cgpa: 8.9,
-  isgraduate: true,
-}; // object data type
-console.log(student);
+console.log(product);
 
+profile = {
+  username: "Vinay",
+  followers: 569,
+  following: 4,
+  is_follow: false,
+  info: "Still studying in BCA in  RNS FGC Murdeswara",
+};
+console.log(typeof profile["username"]);
