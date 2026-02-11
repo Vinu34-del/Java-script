@@ -51,7 +51,35 @@
 // console.log("Congratulation, your guess is correct");
 
 //Strings
-let str = "Vinay";
-console.log(str.length);
-let str2 = 'Ramesh';
-console.log(str2.length);
+// let str = "Vinay";
+// console.log(str[0]);
+// let str2 = `this is a programing language`
+// console.log(str2);
+
+//Template Literals
+// let obj = {
+//   item: "Volyball",
+//   price: 300,
+//   quality: "good",
+// };
+
+// let output = `the ${obj.item} rate or price is  ${obj.price}. build quality is ${obj.quality}.`;
+// console.log(output);
+
+// let str3 = "Vinay\nDevadiga";
+// console.log(str3.length);
+
+// Strings Methods in JS
+// let str4 = "Hello Coders\t";
+// let str5 = "My name is Vinay";
+// console.log(str4.toUpperCase());
+// console.log(str4.toLowerCase());
+// console.log(str4.slice(0,5));
+// console.log(str5.replace("Vinay","Manu"));
+// let res = str4.concat(str5);
+// console.log(res);
+
+//practise question
+let fullname = prompt("Enter the full name without having space");
+let username = "@" + fullname + fullname.length ;
+console.log(username);
